@@ -108,7 +108,7 @@ span {
     font-size: 16px;
     padding: 5px;
     line-height: 25px;
-    
+
 }
 
 
@@ -563,4 +563,92 @@ span {
     display: block;
     color: rgb(112, 111, 111);
 
+}
+
+
+
+@media screen and (max-width: 1330px) {
+
+    .service-content-box2__text,
+    .service-content-box3__text {
+        line-height: 20px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .main-top-slogan {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .main-news__li-item {
+        width: 60%;
+        border-top: solid darkgrey 2px;
+        border-bottom: solid darkgrey 2px;
+        line-height: 25px;
+        margin: 0 25% 130px
+    }
+
+    .blog-card-tag {
+        font-size: 13px;
+    }
+
+    .blog-card-text {
+        font-size: 15px;
+    }
+    .main-about-text {
+        font-size: 15px;
+    }
+    . {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+.blog-card-tag {
+        font-size: 10px;
+    }
+
+    .blog-card-text {
+        font-size: 11px;
+    }
+    .main-contact-btn a {
+        font-size: 13px;
+}
+.service-content-box2__text,
+.service-content-box3__text {
+    margin: 15% 5% 0 5%;
+    line-height: 20px;
+    font-size: 11px;
+}
+.main-top-slogan {
+    font-size: 50px;
+    line-height: 70px;
+}
+.main-about-text {
+    font-size: 13px;
+}
+.company-sammary {
+    margin: 0 0 80px 20%;
+}
+.main-company-font {
+    padding-top: 5%;
+    margin: 0 0 10px 20%;
+
+}
+.main-company__ttl {
+    font-size: 24px;
+    margin: 0 0 4% 20%;
+}
+.main-top-ttl {
+    font-size: 20px;
+}
+    .main-top-ttl__p {
+        font-size: 14px;
+}
+.sammary-content {
+    width: 430px;
+
+}
 }
